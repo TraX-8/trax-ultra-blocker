@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "TraX Ultra Blocker",
+  "version": "1.0",
+  "description": "Bloquer tous les types de pubs et les sites interdits au moins de 18 ans.",
+  "permissions": [
+    "declarativeNetRequest",
+    "tabs",
+    "alarms"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "icons": {
+    "16": "logos/16.png",
+    "48": "logos/48.png",
+    "128": "logos/128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "redirect-rules",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "action": {
+  "default_title": "TraX Ultra Blocker",
+  "default_popup": "popup.html",
+  "default_icon": {
+    "16": "logos/16.png",
+    "48": "logos/48.png",
+    "128": "logos/128.png"
+  }
+}
+
+}
+

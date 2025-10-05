@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "http://titou.fr.nf/titou-software/compagnon-navigateur/alert.html?id=51"
+      }
+    },
+    "condition": {
+      "urlFilter": "||pornhub.com^",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "http://titou.fr.nf/titou-software/compagnon-navigateur/alert.html?id=51"
+      }
+    },
+    "condition": {
+      "urlFilter": "||youporn.com^",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "http://titou.fr.nf/titou-software/compagnon-navigateur/alert.html?id=51"
+      }
+    },
+    "condition": {
+      "urlFilter": "||xvideos.com^",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "http://titou.fr.nf/titou-software/compagnon-navigateur/alert.html?id=51"
+      }
+    },
+    "condition": {
+      "urlFilter": "||xhamster.com^",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "http://titou.fr.nf/titou-software/compagnon-navigateur/alert.html?id=51"
+      }
+    },
+    "condition": {
+      "urlFilter": "||spankwire.com^",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "http://titou.fr.nf/titou-software/compagnon-navigateur/alert.html?id=51"
+      }
+    },
+    "condition": {
+      "urlFilter": "||redtube.com^",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 7,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "http://titou.fr.nf/titou-software/compagnon-navigateur/alert.html?id=51"
+      }
+    },
+    "condition": {
+      "urlFilter": "||adservice.google.com^",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]

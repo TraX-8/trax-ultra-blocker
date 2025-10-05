@@ -1,0 +1,32 @@
+body {
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 10px;
+  background: #121212;
+  color: #fff;
+}
+
+button {
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+button.active {
+  background: #2ecc71;
+}
+#website {
+  background-color: #09E632;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: 0.2s;
+  
+#website:hover {
+    background-color: #09B027;
+}
